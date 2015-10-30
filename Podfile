@@ -4,14 +4,19 @@
 # use_frameworks!
 
 target 'PMS' do
-
+    
+pod 'FMDB'
+pod 'KLSwitch'
+pod 'AFNetworking'
+pod 'SHUIKitBlocks'
+    
 end
 
 target 'PMSTests' do
-
+    
 end
 
 target 'PMSUITests' do
-
+    
 end
 
